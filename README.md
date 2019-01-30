@@ -170,6 +170,14 @@ _A powerful, open source object-relational database system._
 
 _A completely embedded, full-featured relational database in a few 100k that you can include right into your project._
 
+* [Awesome SQLite](https://github.com/mindreframer/awesome-sqlite) - All things around SQLite.
+
+
+#### [DB2]
+
+* [Awesome DB2](https://github.com/angoca/awesome-db2) - A curated list of awesome Db2 resources, tools and documentation to develop in that database.
+
+
 #### Other Databases
 
 * [VoltDB](https://github.com/VoltDB/voltdb/) - VoltDB is a horizontally-scalable, in-memory SQL RDBMS designed for applications that have extremely high read and write throughput requirements.
@@ -185,6 +193,85 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * [TokuMX](https://github.com/Tokutek/mongo) - TokuMX is a high-performance, concurrent, compressing, drop-in replacement engine for MongoDB. (#C/C++)
 * [PouchDB](https://github.com/pouchdb/pouchdb) - PouchDB is a pocket-sized database.
 * [Aerospike Database Server](https://github.com/aerospike/aerospike-server) - Flash-optimized, in-memory, noSQL database. Previously [AlchemyDB](https://github.com/JakSprats/Alchemy-Database). See [more](http://www.aerospike.com).
+
+#### Key-Value Cache:  
+* Coherence  
+* eXtreme Scale  
+* GigaSpaces  
+* GemFire  
+* Hazelcast  
+* Infinispan  
+* JBoss Cache  
+* **Memcached**  
+* Repcached  
+* Terracotta  
+* Velocity  
+  
+#### Key-Value Store:  
+* Flare  
+* Keyspace  
+* RAMCloud  
+* SchemaFree  
+* Hyperdex  
+* Aerospike  
+ 
+#### Key-Value Store (Eventually-Consistent):  
+* DovetailDB  
+* **Oracle NoSQL Database**  
+* Dynamo  
+* Riak  
+* Dynomite  
+* MotionDb  
+* Voldemort  
+* SubRecord  
+  
+#### Key-Value Store (Ordered):  
+* Actord  
+* FoundationDB  
+* Lightcloud  
+* LMDB  
+* Luxio  
+* **MemcacheDB**  
+* NMDB  
+* Scalaris  
+* TokyoTyrant  
+  
+#### Data-Structures server:  
+* **Redis**  
+ 
+#### Tuple Store:  
+* Apache River  
+* Coord  
+* GigaSpaces  
+ 
+#### Object Database:  
+* DB4O  
+* Objectivity/DB  
+* Perst  
+* Shoal  
+* ZopeDB  
+ 
+#### Document Store:  
+* Clusterpoint  
+* Couchbase  
+* CouchDB  
+* DocumentDB  
+* Lotus Notes  
+* MarkLogic  
+* **MongoDB**  
+* Qizx  
+* XML-databases  
+ 
+### Wide Columnar Store:  
+* **BigTable**  
+* **Cassandra**  
+* Druid  
+* **HBase**  
+* Hypertable  
+* KAI  
+* KDI  
+* OpenNeptune  
+* Qbase  
 
 ### Graph Databases
 
@@ -289,13 +376,16 @@ _A completely embedded, full-featured relational database in a few 100k that you
 
 ### :wrench: Tools <a name="tools"></a>
 
-- [PixQL](https://github.com/Phildo/pixQL) - Command-line image processing tool in SQL.
-- [SQL Fiddle](http://sqlfiddle.com/) - Easly test and share database problems and their solutions. Can use different backend DBMS's (MySQL, PostgreSQL, MS SQL Server, Oracle, and SQLite).
-- [SqlPad](http://rickbergfalk.github.io/sqlpad/) - A web app for running SQL queries and visualizing the results.
-- [ERAlchemy](https://github.com/Alexis-benoist/eralchemy) - ERAlchemy generates Entity Relation (ER) diagram from databases.
-- [BigBash](https://github.com/zalando/bigbash) - Open-source converter that generates a bash one-liner from an SQL Select query, no database necessary.
-- [Flyway](https://flywaydb.org/) - Database migration tool.
-- [Liquibase](http://www.liquibase.org/) - Source Control for your database.
+* [PixQL](https://github.com/Phildo/pixQL) - Command-line image processing tool in SQL.
+* [SQL Fiddle](http://sqlfiddle.com/) - Easly test and share database problems and their solutions. Can use different backend DBMS's (MySQL, PostgreSQL, MS SQL Server, Oracle, and SQLite).
+* [SqlPad](http://rickbergfalk.github.io/sqlpad/) - A web app for running SQL queries and visualizing the results.
+* [ERAlchemy](https://github.com/Alexis-benoist/eralchemy) - ERAlchemy generates Entity Relation (ER) diagram from databases.
+* [BigBash](https://github.com/zalando/bigbash) - Open-source converter that generates a bash one-liner from an SQL Select query, no database necessary.
+* [Flyway](https://flywaydb.org/) - Database migration tool.
+* [Liquibase](http://www.liquibase.org/) - Source Control for your database.
+* [Liquibase](http://www.liquibase.org/) - Source Control for your database.
+
+* [Awesome DB Tools](https://github.com/mgramin/awesome-db-tools) - a community driven list of database tools (ide, cli, managing, monitoring, migrations, modelers, visualization etc)
 
 ## Formatters <a name="formatters"></a>
 
@@ -409,6 +499,10 @@ See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
 * [Awesome Databases](https://github.com/dhamaniasad/awesome-databases) - A curated list of awesome databases.
 * [Awesome DB](https://github.com/pditommaso/awesome-db) - A curated list of awesome DBs.
 * [Awesome SQL Server](https://github.com/SqlAdmin/AwesomeSQLServer) - A big collection of SQL Server Queries and documeantations to fix your SQL Server's bottle neck.
+* [Awesome SQLite](https://github.com/planetopendata/awesome-sqlite) - A collection of awesome sqlite tools, scripts, books, etc.
+* [Awesome PostgresSQL](https://github.com/dhamaniasad/awesome-postgres) - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql.
+* [Awesome DB2](https://github.com/angoca/awesome-db2) - A curated list of awesome Db2 resources, libraries, tools and applications.
+
 
 # :trophy: Recommended <a name="recommended"></a>
 
@@ -464,6 +558,8 @@ See [Code of Conduct](https://github.com/agarcialeon/awesome-unity/blob/master/C
 
 * Fill Open Issue template file to help providing new resources.
 * Add license file.
+* Add awesome sqlite repository resources. (not commercial ones)
+* Add awesome postgres repository resources.
 * Add repository logo.
 * Add contributing file.
 * Move language-related resources to its category and add language tags to filter them.
