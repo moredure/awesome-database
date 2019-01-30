@@ -35,6 +35,7 @@
 	- [Tags](#tags)
 - [Categories](#categories)
   - [Scripting](#scripting)
+    - [SQL Languages](#sql-languages)
     - [Algorithms](#algorithms)
     - [Patterns](#patterns)
     - [Libraries](#libraries)
@@ -47,6 +48,7 @@
   - [VCS (Version Control Systems)](#vcs)
   - [Continuous Integration (CI)](#continuous-integration)
   - [Testing](#testing)
+  - [Documentation](#documentation)
   - [Customization](#customization)
   - [Extensibility](#extensibility)
   - [Miscellaneuous](#miscellaneous)  
@@ -194,6 +196,10 @@ Interesting resource: :cool:
 
 ## :pencil2: Scripting <a name="scripting"></a>
 
+### SQL Languages <a name="sql-languages"></a>
+
+:construction:
+
 ### :chart_with_upwards_trend: Algorithms <a name="algorithms"></a>
 
 :construction:
@@ -243,6 +249,10 @@ Interesting resource: :cool:
 :construction:
 
 ## Testing <a name="testing"></a>
+
+:construction:
+
+## Documentation <a name="documentation"></a>
 
 :construction:
 
