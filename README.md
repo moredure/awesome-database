@@ -34,16 +34,17 @@
 	- [Icons](#icons)
 	- [Tags](#tags)
 - [Categories](#categories)
-  - [Scripting](#scripting)
-    - [SQL Languages](#sql-languages)
-    - [Algorithms](#algorithms)
-    - [Patterns](#patterns)
-    - [Libraries](#libraries)
-    - [Utilities](#utilities)
-    - [Tools](#tools)
-    - [Plugins](#plugins) 
-    - [Snippets & Gists](#snippets-&-gists)
-    - [Dynamic SQL](#dynamic-sql)
+	- [Databases](#databases)
+	- [Scripting](#scripting)
+		- [SQL Languages](#sql-languages)
+		- [Algorithms](#algorithms)
+		- [Patterns](#patterns)
+		- [Libraries](#libraries)
+		- [Utilities](#utilities)
+		- [Tools](#tools)
+		- [Plugins](#plugins) 
+		- [Snippets & Gists](#snippets-&-gists)
+		- [Dynamic SQL](#dynamic-sql)
 	- [Integrated Development Environment (IDE)](#ide)
   - [VCS (Version Control Systems)](#vcs)
   - [Continuous Integration (CI)](#continuous-integration)
@@ -116,6 +117,30 @@ Interesting resource: :cool:
 
 # :bookmark: Categories <a name="categories"></a>
 
+## Databases <a name="databases"></a>
+
+### Oracle
+
+- [SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) - Oracle's Free IDE for PL/SQL development and administration of Oracle databases.
+- [SQL Tools for Oracle](http://sourceforge.net/projects/sqlt/) - Lightweight frontend for Oracle DB development.
+- [Oracle Database 11g Express Edition](http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html) - Free entry level database to develop and deploy applications.
+- [Alexandria PL/SQL Utility Library](https://github.com/mortenbra/alexandria-plsql-utils) - Collection of utility packages for PL/SQL
+- [PLSQL-JSON](https://github.com/doberkofler/PLSQL-JSON) - PL/SQL library to encode/decode JSON
+- [utPLSQL](https://utplsql.github.io/) - Unit testing framework for PL/SQL.
+
+### SQL Server
+
+- [SQL Server Express Edition](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx) - Free SQL Server Database to develop and deploy applications.
+- [SQL Server Data Tools](http://msdn.microsoft.com/en-us/data/tools.aspx) - Integrated environment for developers to design and build database and other business intelligence solutions for MS SQL Server stack.
+- [tSQLt](http://tsqlt.org/) - Unit testing framework for SQL Server.
+
+### MariaDB
+
+
+
+### MySQL
+
+
 ## Clojure
 
  * [Datomic](http://www.datomic.com/)
@@ -184,6 +209,7 @@ Interesting resource: :cool:
 * [MongoDB](https://github.com/mongodb/mongo) - MongoDB is a document database that provides high performance, high availability, and easy scalability. Documents (objects) map nicely to programming language data types. Embedded documents and arrays reduce need for joins. Dynamic schema makes polymorphism easier. [Website] (https://www.mongodb.org/).
 
 ## Scala
+
 * [BlinkDB](https://github.com/sameeragarwal/blinkdb) - BlinkDB: Sub-Second Approximate Queries on Very Large Data [Website]	(http://blinkdb.cs.berkeley.edu/).
 
 ## Frameworks <a name="frameworks"></a>
@@ -218,7 +244,20 @@ Interesting resource: :cool:
 
 ### :wrench: Tools <a name="tools"></a>
 
-:construction:
+- [PixQL](https://github.com/Phildo/pixQL) - Command-line image processing tool in SQL.
+- [SQL Fiddle](http://sqlfiddle.com/) - Easly test and share database problems and their solutions. Can use different backend DBMS's (MySQL, PostgreSQL, MS SQL Server, Oracle, and SQLite).
+- [SqlPad](http://rickbergfalk.github.io/sqlpad/) - A web app for running SQL queries and visualizing the results.
+- [ERAlchemy](https://github.com/Alexis-benoist/eralchemy) - ERAlchemy generates Entity Relation (ER) diagram from databases.
+- [BigBash](https://github.com/zalando/bigbash) - Open-source converter that generates a bash one-liner from an SQL Select query, no database necessary.
+- [Flyway](https://flywaydb.org/) - Database migration tool.
+- [Liquibase](http://www.liquibase.org/) - Source Control for your database.
+
+## Formatters <a name="formatters"></a>
+
+- [SQL Format](http://www.dpriver.com/pp/sqlformat.htm) - Instant SQL Formatter.
+- [Poor SQL](http://poorsql.com/) - A small free .Net and JS library (with demo UI, command-line bulk formatter, SSMS/VS add-in, notepad++ plugin, winmerge plugin, and demo webpage) for reformatting and coloring T-SQL code to the user's preferences.
+See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
+- [T-SQL Tidy](http://www.tsqltidy.com/Default.aspx) - Online T-SQL formatting with Webservice and Plugins for SSMS.
 
 ## :electric_plug: Plugins <a name="plugins"></a>
 
@@ -294,7 +333,7 @@ Interesting resource: :cool:
 
 ## :beginner: Tutorials <a name="tutorials"></a>
 
-:construction:
+- [Curated SQL Learning Resources on Hackr.io](https://hackr.io/tutorials/learn-sql) - Programming Community Curated Resources for learning SQL.
 
 ## :star: Best Practices <a name="best-practices"></a>
 
@@ -316,7 +355,8 @@ Interesting resource: :cool:
 
 ## :paperclip: Other references <a name="other-references"></a>
 
-:construction:
+* [Awesome DB Tools](https://github.com/mgramin/awesome-db-tools) - A community driven list of database tools (ide, cli, managing, monitoring, migrations, modelers, visualization, etc...).
+* [Awesome SQL](https://github.com/danhuss/awesome-sql) - List of tools and techniques for working with relational databases.
 
 # :trophy: Recommended <a name="recommended"></a>
 
