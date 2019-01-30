@@ -125,18 +125,18 @@ Interesting resource: :cool:
 
 #### Oracle
 
-- [SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) - Oracle's Free IDE for PL/SQL development and administration of Oracle databases.
-- [SQL Tools for Oracle](http://sourceforge.net/projects/sqlt/) - Lightweight frontend for Oracle DB development.
-- [Oracle Database 11g Express Edition](http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html) - Free entry level database to develop and deploy applications.
-- [Alexandria PL/SQL Utility Library](https://github.com/mortenbra/alexandria-plsql-utils) - Collection of utility packages for PL/SQL
-- [PLSQL-JSON](https://github.com/doberkofler/PLSQL-JSON) - PL/SQL library to encode/decode JSON
-- [utPLSQL](https://utplsql.github.io/) - Unit testing framework for PL/SQL.
+* [SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) - Oracle's Free IDE for PL/SQL development and administration of Oracle databases.
+* [SQL Tools for Oracle](http://sourceforge.net/projects/sqlt/) - Lightweight frontend for Oracle DB development.
+* [Oracle Database 11g Express Edition](http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html) - Free entry level database to develop and deploy applications.
+* [Alexandria PL/SQL Utility Library](https://github.com/mortenbra/alexandria-plsql-utils) - Collection of utility packages for PL/SQL
+* [PLSQL-JSON](https://github.com/doberkofler/PLSQL-JSON) - PL/SQL library to encode/decode JSON
+* [utPLSQL](https://utplsql.github.io/) - Unit testing framework for PL/SQL.
 
 #### SQL Server
 
-- [SQL Server Express Edition](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx) - Free SQL Server Database to develop and deploy applications.
-- [SQL Server Data Tools](http://msdn.microsoft.com/en-us/data/tools.aspx) - Integrated environment for developers to design and build database and other business intelligence solutions for MS SQL Server stack.
-- [tSQLt](http://tsqlt.org/) - Unit testing framework for SQL Server.
+* [SQL Server Express Edition](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx) - Free SQL Server Database to develop and deploy applications.
+* [SQL Server Data Tools](http://msdn.microsoft.com/en-us/data/tools.aspx) - Integrated environment for developers to design and build database and other business intelligence solutions for MS SQL Server stack.
+* [tSQLt](http://tsqlt.org/) - Unit testing framework for SQL Server.
 
 ##### Monitoring
 
@@ -152,14 +152,13 @@ Interesting resource: :cool:
 
 _An enhanced, drop-in replacement for MySQL._
 
-
 #### [MySQL](http://mysql.com)
 
-_MySQL is the world's most popular open source database. _
+_MySQL is the world's most popular open source database._
 
 * [TokuDB Engine](https://github.com/Tokutek/tokudb-engine) - TokuDB is a high-performance, write optimized, compressing, transactional storage engine for MySQL and MariaDB. (#C/C++)
 
-#### [PostgreSQL](http://www.postgresql.org/) - 
+#### [PostgreSQL](http://www.postgresql.org/)
 
 _A powerful, open source object-relational database system._
 
@@ -173,10 +172,11 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * [Awesome SQLite](https://github.com/mindreframer/awesome-sqlite) - All things around SQLite.
 
 
-#### [DB2]
+#### [DB2](https://www.ibm.com/es-es/analytics/db2/tools)
+
+_Database management products developed by IBM_
 
 * [Awesome DB2](https://github.com/angoca/awesome-db2) - A curated list of awesome Db2 resources, tools and documentation to develop in that database.
-
 
 #### Other Databases
 
@@ -194,7 +194,8 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * [PouchDB](https://github.com/pouchdb/pouchdb) - PouchDB is a pocket-sized database.
 * [Aerospike Database Server](https://github.com/aerospike/aerospike-server) - Flash-optimized, in-memory, noSQL database. Previously [AlchemyDB](https://github.com/JakSprats/Alchemy-Database). See [more](http://www.aerospike.com).
 
-#### Key-Value Cache:  
+#### Key-Value Cache 
+
 * Coherence  
 * eXtreme Scale  
 * GigaSpaces  
@@ -207,7 +208,8 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * Terracotta  
 * Velocity  
   
-#### Key-Value Store:  
+#### Key-Value Store
+
 * Flare  
 * Keyspace  
 * RAMCloud  
@@ -215,7 +217,8 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * Hyperdex  
 * Aerospike  
  
-#### Key-Value Store (Eventually-Consistent):  
+#### Key-Value Store (Eventually-Consistent)
+
 * DovetailDB  
 * **Oracle NoSQL Database**  
 * Dynamo  
@@ -225,7 +228,8 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * Voldemort  
 * SubRecord  
   
-#### Key-Value Store (Ordered):  
+#### Key-Value Store (Ordered)
+
 * Actord  
 * FoundationDB  
 * Lightcloud  
@@ -236,22 +240,26 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * Scalaris  
 * TokyoTyrant  
   
-#### Data-Structures server:  
+#### Data-Structures server
+
 * **Redis**  
  
-#### Tuple Store:  
+#### Tuple Store
+
 * Apache River  
 * Coord  
 * GigaSpaces  
  
-#### Object Database:  
+#### Object Database
+
 * DB4O  
 * Objectivity/DB  
 * Perst  
 * Shoal  
 * ZopeDB  
  
-#### Document Store:  
+#### Document Store
+
 * Clusterpoint  
 * Couchbase  
 * CouchDB  
@@ -262,7 +270,8 @@ _A completely embedded, full-featured relational database in a few 100k that you
 * Qizx  
 * XML-databases  
  
-### Wide Columnar Store:  
+### Wide Columnar Store
+
 * **BigTable**  
 * **Cassandra**  
 * Druid  
@@ -502,7 +511,6 @@ See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
 * [Awesome SQLite](https://github.com/planetopendata/awesome-sqlite) - A collection of awesome sqlite tools, scripts, books, etc.
 * [Awesome PostgresSQL](https://github.com/dhamaniasad/awesome-postgres) - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql.
 * [Awesome DB2](https://github.com/angoca/awesome-db2) - A curated list of awesome Db2 resources, libraries, tools and applications.
-
 
 # :trophy: Recommended <a name="recommended"></a>
 
