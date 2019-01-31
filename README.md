@@ -304,7 +304,7 @@ See [list](http://nosql-database.org/) of databases.
 
 * [Neo4j](https://github.com/neo4j/neo4j) - The world’s leading Graph Database. [Website](http://neo4j.org). (#JAVA)
 * [FlockDB](https://github.com/twitter/flockdb) - Twitter's distributed, fault-tolerant graph database.
-- [Titan](https://github.com/thinkaurelius/titan) - Distributed Graph Database [Website](http://titandb.io). (#JAVA)
+* [Titan](https://github.com/thinkaurelius/titan) - Distributed Graph Database [Website](http://titandb.io). (#JAVA)
 * [OrientDB](https://github.com/orientechnologies/orientdb) - OrientDB is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs. (#JAVA) (#DOCUMENT-STORE)
 * [ArangoDB](https://github.com/triAGENS/ArangoDB) - ArangoDB is a multi-purpose, open-source database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript/Ruby extensions. Use ACID transaction if you require them. Scale horizontally and vertically with a few mouse clicks.
 
@@ -420,15 +420,15 @@ See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
 
 :construction:
 
-### Snippets & Gists <a name="snippets-&-gists"></a>
+## Snippets & Gists <a name="snippets-&-gists"></a>
 
 :construction:
 
-### Dynamic SQL <a name="dynamic-sql"></a>
+## Dynamic SQL <a name="dynamic-sql"></a>
 
 :construction:
 
-### Integrated Development Environment (IDE) <a name="ide"></a>
+## Integrated Development Environment (IDE) <a name="ide"></a>
 
 :construction:
 
