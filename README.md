@@ -121,9 +121,11 @@ Interesting resource: :cool:
 
 ## Databases <a name="databases"></a>
 
-### Relational Databases
+Search [more](https://dbdb.io/) databases.
 
-#### Oracle
+### Relational Databases <a name="relational-databases"></a>
+
+#### Oracle <a name="oracle"></a>
 
 * [SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) - Oracle's Free IDE for PL/SQL development and administration of Oracle databases.
 * [SQL Tools for Oracle](http://sourceforge.net/projects/sqlt/) - Lightweight frontend for Oracle DB development.
@@ -132,7 +134,7 @@ Interesting resource: :cool:
 * [PLSQL-JSON](https://github.com/doberkofler/PLSQL-JSON) - PL/SQL library to encode/decode JSON
 * [utPLSQL](https://utplsql.github.io/) - Unit testing framework for PL/SQL.
 
-#### SQL Server
+#### SQL Server <a name="sqlserver"></a>
 
 * [SQL Server Express Edition](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx) - Free SQL Server Database to develop and deploy applications.
 * [SQL Server Data Tools](http://msdn.microsoft.com/en-us/data/tools.aspx) - Integrated environment for developers to design and build database and other business intelligence solutions for MS SQL Server stack.
@@ -142,59 +144,59 @@ Interesting resource: :cool:
 
 * [Monitor CPU Usage](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/CPU%20Monitoring.sql)
 * [Monitor Memory Usage](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/Memory%20Monitoring.sql)
-* [Monitor Disk Usgae](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/Disk%20Space%20Monitoring.sql)
+* [Monitor Disk Usage](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/Disk%20Space%20Monitoring.sql)
 * [Session Monitoring](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/Session%20Monitoring.sql)
 * [Blocking, Deadlock Monitoring](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/Blocking%20Monitoring.sql)
 * [IO Monitoring](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/IO%20Monitoring.sql)
 * [Wait stat Monitoring](https://github.com/SqlAdmin/AwesomeSQLServer/blob/master/T-SQL%20Scripts/Wait%20stat%20Monitoring.sql)
 
-#### [MariaDB](https://mariadb.org/)
+#### [MariaDB](https://mariadb.org/) <a name="mariadb"></a>
 
 _An enhanced, drop-in replacement for MySQL._
 
-#### [MySQL](http://mysql.com)
+#### [MySQL](http://mysql.com) <a name="mysql"></a>
 
 _MySQL is the world's most popular open source database._
 
-* [TokuDB Engine](https://github.com/Tokutek/tokudb-engine) - TokuDB is a high-performance, write optimized, compressing, transactional storage engine for MySQL and MariaDB. (#C/C++)
+* [Facebook/MySQL-5.6](https://github.com/facebook/mysql-5.6) - Facebook's branch of the Oracle MySQL v5.6 database. (#C/C++)
+* [Twitter/MySQL](https://github.com/twitter/mysql) - MySQL fork maintained and used at Twitter. See its [wiki](https://github.com/twitter/mysql/wiki). (#C/C++)
+* [Percona Server](http://www.percona.com/software) - Enhanced, drop-in MySQL replacement.
+* [TokuDB Engine](https://github.com/Tokutek/tokudb-engine) - TokuDB is a high-performance, write optimized, compressing, transactional storage engine for MySQL and MariaDB. (#C/C++) (#MARIADB)
+* [Galera](http://galeracluster.com/) - Galera Cluster for MySQL is an easy-to-use high-availability solution with high system up-time, no data loss, and scalability for future growth.
 
-#### [PostgreSQL](http://www.postgresql.org/)
-
-_A powerful, open source object-relational database system._
-
-* [PostgreSQL](https://github.com/postgres/postgres) - Mirror of the official PostgreSQL Git repository. (#C/C++)
-* [Cstore FDW](https://github.com/citusdata/cstore_fdw) - Fast columnar store for analytics with PostgreSQL. [Website](http://citusdata.github.io/cstore_fdw/). (#C/C++)
-
-#### [SQLite](http://www.sqlite.org/)
+#### [SQLite](http://www.sqlite.org/) <a name="sqlite"></a>
 
 _A completely embedded, full-featured relational database in a few 100k that you can include right into your project._
 
 * [Awesome SQLite](https://github.com/mindreframer/awesome-sqlite) - All things around SQLite.
 
-
-#### [DB2](https://www.ibm.com/es-es/analytics/db2/tools)
+#### [DB2](https://www.ibm.com/es-es/analytics/db2/tools) <a name="db2"></a>
 
 _Database management products developed by IBM_
 
 * [Awesome DB2](https://github.com/angoca/awesome-db2) - A curated list of awesome Db2 resources, tools and documentation to develop in that database.
 
-#### Other Databases
+#### Other Databases <a name="other-relational-databases"></a>
 
+* [Firebird](http://www.firebirdsql.org/) - True universal open source database.
 * [VoltDB](https://github.com/VoltDB/voltdb/) - VoltDB is a horizontally-scalable, in-memory SQL RDBMS designed for applications that have extremely high read and write throughput requirements.
 
-### NoSQL Databases
+### Object-Relational Databases
 
-* [Redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes.[Website](http://redis.io). (#C/C++)
-* [Redis NDS](https://github.com/mpalmer/redis/tree/nds-2.6) - This is a version of Redis patched to implement NDS (the Naive Disk Store). (#C/C++)
-* [SSDB](https://github.com/ideawu/ssdb) - A fast NoSQL database, an alternative to Redis. [Website](http://ssdb.io). (#C/C++)
-* [RethinkDB](https://github.com/rethinkdb/rethinkdb) - An open-source distributed JSON document database with a pleasant and powerful query language. [Website](http://www.rethinkdb.com). (#C/C++)
-* [CouchDB](https://github.com/apache/couchdb) - Apache CouchDB™ is a database that uses JSON for documents,JavaScript for MapReduce indexes, and regular HTTP for its API [Website] (http://couchdb.apache.org/). (#JAVASCRIPT)
-* [MongoDB](https://github.com/mongodb/mongo) - MongoDB is a document database that provides high performance, high availability, and easy scalability. Documents (objects) map nicely to programming language data types. Embedded documents and arrays reduce need for joins. Dynamic schema makes polymorphism easier. [Website] (https://www.mongodb.org/). (#JAVASCRIPT)
-* [TokuMX](https://github.com/Tokutek/mongo) - TokuMX is a high-performance, concurrent, compressing, drop-in replacement engine for MongoDB. (#C/C++)
-* [PouchDB](https://github.com/pouchdb/pouchdb) - PouchDB is a pocket-sized database.
-* [Aerospike Database Server](https://github.com/aerospike/aerospike-server) - Flash-optimized, in-memory, noSQL database. Previously [AlchemyDB](https://github.com/JakSprats/Alchemy-Database). See [more](http://www.aerospike.com).
+#### [PostgreSQL](http://www.postgresql.org/) <a name="postgresql"></a>
 
-#### Key-Value Cache 
+_A powerful, open source object-relational database system._
+
+* [PostgreSQL](https://github.com/postgres/postgres) - Mirror of the official PostgreSQL Git repository. (#C/C++)
+* [PostgreSQL-XL](http://www.postgres-xl.org/) - Scalable Open Source PostgreSQL-based database cluster.
+* [Cstore FDW](https://github.com/citusdata/cstore_fdw) - Fast columnar store for analytics with PostgreSQL. [Website](http://citusdata.github.io/cstore_fdw/). (#C/C++)
+* [Barman](http://www.pgbarman.org) - Backup and Recovery Manager for disaster recovery of PostgreSQL servers.
+
+### NoSQL Databases <a name="nosql-databases"></a>
+
+See [list](http://nosql-database.org/) of databases.
+
+#### Key-Value Cache <a name="key-value-cache"></a>
 
 * Coherence  
 * eXtreme Scale  
@@ -207,50 +209,61 @@ _Database management products developed by IBM_
 * Repcached  
 * Terracotta  
 * Velocity  
+* [Go Cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications. (#GO-LANG)
   
-#### Key-Value Store
+#### Key-Value Store <a name="key-value-store"></a>
 
 * Flare  
 * Keyspace  
 * RAMCloud  
 * SchemaFree  
 * Hyperdex  
-* Aerospike  
+* [Aerospike](https://github.com/aerospike/aerospike-server) - Flash-optimized, in-memory, noSQL database. Previously [AlchemyDB](https://github.com/JakSprats/Alchemy-Database). See [more](http://www.aerospike.com).
+* [Bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go. (#GO-LANG)
+* [Diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store. (#GO-LANG)
+* [LevelDB](https://github.com/google/leveldb) - High performance key-value storage library written at Google. See [more](https://code.google.com/p/leveldb/).
+* [Go LevelDB](https://github.com/syndtr/goleveldb) - An implementation of the [LevelDB](https://code.google.com/p/leveldb/) key/value database in the Go. (#GO-LANG)
  
-#### Key-Value Store (Eventually-Consistent)
+#### Key-Value Store (Eventually-Consistent) <a name="key-value-store-consistent"></a>
 
 * DovetailDB  
 * **Oracle NoSQL Database**  
-* Dynamo  
-* Riak  
+* Dynamo 
+* [Voldemort](https://github.com/voldemort/voldemort) - An open source clone of Amazon's Dynamo. [Website](http://project-voldemort.com) (#JAVA)
+* [Riak](http://basho.com/riak/) - Another fault-tolerant key-value NoSQL database.
 * Dynomite  
 * MotionDb  
 * Voldemort  
 * SubRecord  
   
-#### Key-Value Store (Ordered)
+#### Key-Value Store (Ordered) <a name="key-value-store-ordered"></a>
 
 * Actord  
 * FoundationDB  
 * Lightcloud  
-* LMDB  
-* Luxio  
+* [LMDB](http://symas.com/mdb/) - Very fast embedded key/value store with full ACID semantics. (#C/C++)
+* Luxio 
+* [Memcached](https://github.com/memcached/memcached) - Free & open source, high-performance, distributed memory object caching system. (#C/C++)
+* [Groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases. (#GO-LANG)
 * **MemcacheDB**  
 * NMDB  
 * Scalaris  
 * TokyoTyrant  
   
-#### Data-Structures server
+#### Data-Structures server <a name="data-structures-server"></a>
 
-* **Redis**  
+* [Redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes.[Website](http://redis.io). (#C/C++)
+* [Redis NDS](https://github.com/mpalmer/redis/tree/nds-2.6) - This is a version of Redis patched to implement NDS (the Naive Disk Store). (#C/C++)
+* [SSDB](https://github.com/ideawu/ssdb) - A fast NoSQL database, an alternative to Redis. [Website](http://ssdb.io). (#C/C++)
+* [LedisDB](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB. (#GO-LANG)
  
-#### Tuple Store
+#### Tuple Store <a name="tuple-store"></a>
 
 * Apache River  
 * Coord  
 * GigaSpaces  
  
-#### Object Database
+#### Object Database <a name="object-database"></a>
 
 * DB4O  
 * Objectivity/DB  
@@ -258,50 +271,60 @@ _Database management products developed by IBM_
 * Shoal  
 * ZopeDB  
  
-#### Document Store
+#### Document Store <a name="document-store"></a>
 
 * Clusterpoint  
-* Couchbase  
-* CouchDB  
+* [Couchbase](http://www.couchbase.com/) - In-memory, replicated, peristent key/value datastore.
+* [MongoDB](https://github.com/mongodb/mongo) - MongoDB is a document database that provides high performance, high availability, and easy scalability. Documents (objects) map nicely to programming language data types. Embedded documents and arrays reduce need for joins. Dynamic schema makes polymorphism easier. [Website] (https://www.mongodb.org/). (#JAVASCRIPT) 
+* [TokuMX](https://github.com/Tokutek/mongo) - TokuMX is a high-performance, concurrent, compressing, drop-in replacement engine for MongoDB. (#C/C++)
+* [Apache CouchDB](https://github.com/apache/couchdb) - A database that uses JSON for documents, JavaScript for MapReduce indexes, and regular HTTP for its API [Website] (http://couchdb.apache.org/). (#JAVASCRIPT)
+* [PouchDB](https://github.com/pouchdb/pouchdb) - PouchDB is a pocket-sized database. (#JAVASCRIPT). Inspired by CouchDB.
+* [RethinkDB](https://github.com/rethinkdb/rethinkdb) - An open-source distributed JSON document database with a pleasant and powerful query language. For building realtime web applications. [Website](http://www.rethinkdb.com). (#C/C++)
+* [ElasticSearch](http://www.elasticsearch.org/) - Popular with log aggregation, and email archiving projects. (#JAVA)
 * DocumentDB  
+* [RavenDB](https://github.com/ravendb/ravendb) - Document based database with ACID/Transactional features. [Website](http://ravendb.net/) (#.NET)
 * Lotus Notes  
 * MarkLogic  
-* **MongoDB**  
 * Qizx  
-* XML-databases  
+* XML-databases 
  
-### Wide Columnar Store
+#### Wide Columnar Store <a name="wide-columnar-store"></a>
 
 * **BigTable**  
-* **Cassandra**  
+* [Cassandra](https://github.com/apache/cassandra) -  A partitioned row store. Rows are organized into tables with a required primary key. [Website](http://cassandra.apache.org/) (#JAVA)
 * Druid  
-* **HBase**  
-* Hypertable  
+* [Apache HBase](http://hbase.apache.org/) - Hadoop database, a distributed, big data store. 
+* [Hypertable](http://hypertable.org/) - C++ based BigTable-like DBMS, communicates through Thrift and runs either as stand-alone or on distributed FS such as Hadoop. 
 * KAI  
 * KDI  
 * OpenNeptune  
 * Qbase  
 
-### Graph Databases
+#### Graph Databases <a name="graph-databases"></a>
 
 * [Neo4j](https://github.com/neo4j/neo4j) - The world’s leading Graph Database. [Website](http://neo4j.org). (#JAVA)
-* [FlockDB](https://github.com/twitter/flockdb) - A distributed, fault-tolerant graph database
+* [FlockDB](https://github.com/twitter/flockdb) - Twitter's distributed, fault-tolerant graph database.
 - [Titan](https://github.com/thinkaurelius/titan) - Distributed Graph Database [Website](http://titandb.io). (#JAVA)
-* [OrientDB](https://github.com/orientechnologies/orientdb) - OrientDB document graph NoSQL dbms (database)
+* [OrientDB](https://github.com/orientechnologies/orientdb) - OrientDB is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs. (#JAVA) (#DOCUMENT-STORE)
 * [ArangoDB](https://github.com/triAGENS/ArangoDB) - ArangoDB is a multi-purpose, open-source database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript/Ruby extensions. Use ACID transaction if you require them. Scale horizontally and vertically with a few mouse clicks.
 
-### Embedable engines
+#### Others
+
+* [Memstate](https://github.com/devrexlabs/memstate) - Previously named OrigoDB. An in-memory embedded database engine for NET/Mono.  See [more](https://origodb.com/). (#.NET)
+* [MonetDB](https://github.com/snaga/monetdb) - A high-performance database kernel for query-intensive applications. The MonetDB kernel works together with an SQL frontend that is in a separate CVS module. [Website](https://www.monetdb.org/). (#C/C++)
+* [Tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang. (#GO-LANG)
+* [InfluxDB](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics. (#GO-LANG)
+* [Roshi](https://github.com/soundcloud/roshi/) - Roshi is a large-scale CRDT set implementation for timestamped events. (#GO-LANG)
+* [SkyDB.io](https://github.com/skydb/sky) - Sky is an open source database used for flexible, high performance analysis of behavioral data. (#GO-LANG)
+
+### Embeddable engines <a name="embeddable-engines"></a>
 
 * [Derby](https://db.apache.org/derby/) - Open source relational database implemented entirely in Java.
 * [H2](https://github.com/h2database/h2database) - An embeddable RDBMS written in Java.
-* [LevelDB](https://github.com/google/leveldb) - LevelDB is a fast key-value storage library written at Google. See [more](https://code.google.com/p/leveldb/).
 * [PalDB](https://github.com/linkedin/PalDB) - Embeddable write-once key-value store written in Java.
 * [RocksDB](https://github.com/facebook/rocksdb) - Embedded key-value store for fast storage. [Website](http://rocksdb.org). (#C/C++)
-* [MapDB](https://github.com/jankotek/mapdb/) - Fast and easy to use embedded Java database engine.
+* [MapDB](https://github.com/jankotek/mapdb/) - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine. [Website](http://www.mapdb.org). (#JAVA)
 * [Xodus](https://github.com/JetBrains/xodus/) - JetBrains Xodus is a Java transactional schema-less embedded database.
-
-
-
 
 ## Clojure
 
@@ -309,49 +332,22 @@ _Database management products developed by IBM_
  * [Clojure.jdbc](https://github.com/niwibe/clojure.jdbc)
  * [CravenDB](https://github.com/robashton/cravendb)
 
-## C / C++
-
-* [LMDB](http://symas.com/mdb/) - Very fast embedded key/value store with full ACID semantics.
-* [memcache](https://github.com/memcached/memcached) - Free & open source, high-performance, distributed memory object caching system.
-* [MonetDB](https://github.com/snaga/monetdb) - [Website](https://www.monetdb.org/).
-* [Facebook/MySQL-5.6](https://github.com/facebook/mysql-5.6) - Facebook's branch of the Oracle MySQL v5.6 database.
-* [Twitter/MySQL](https://github.com/twitter/mysql) - MySQL fork maintained and used at Twitter. See its [wiki](https://github.com/twitter/mysql/wiki).
-
-## .NET
-
-* [RavenDB](https://github.com/ravendb/ravendb) - A linq enabled document database for .NET http://ayende.com/Blog/.
-* [OrigoDB](http://dev.origodb.com) - An in-memory embedded database engine for NET/Mono.
 
 ## Erlang
 
 * [Riak](https://github.com/basho/riak) - Riak is a decentralized datastore from Basho Technologies.
 * [PulseDB](http://pulsedb.io) - PulseDB is a time series database server and library.
 
-## Go
-
-* [Bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
-* [Diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
-* [Go Cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
-* [Go LevelDB](https://github.com/syndtr/goleveldb) - An implementation of the [LevelDB](https://code.google.com/p/leveldb/) key/value database in the Go.
-* [Groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
-* [InfluxDB](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
-* [LedisDB](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
-* [Roshi](https://github.com/soundcloud/roshi/) - Roshi is a large-scale CRDT set implementation for timestamped events.
-* [SkyDB.io](https://github.com/skydb/sky) - Sky is an open source database used for flexible, high performance analysis of behavioral data.
-* [Tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 
 ## Java
 
-* [Cassandra](https://github.com/apache/cassandra) - Cassandra is a partitioned row store. Rows are organized into tables with a required primary key.
-* [Elasticsearch](https://github.com/elasticsearch/elasticsearch) - Open Source, Distributed, RESTful Search Engine [Website](http://elasticsearch.org).
-* [Lmdbjni](https://github.com/deephacks/lmdbjni) - LMDB for Java, which is a very fast embedded key/value store with full ACID semantics.
-* [MapDB](https://github.com/jankotek/MapDB) - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine. [Website](http://www.mapdb.org).
-* [OrientDB](https://github.com/orientechnologies/orientdb) - OrientDB is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs.
-* [Voldemort](https://github.com/voldemort/voldemort) - An open source clone of Amazon's Dynamo. [Website](http://project-voldemort.com)
+* [Elasticsearch](https://github.com/elasticsearch/elasticsearch) - Open Source, Distributed, RESTful Search Engine [Website](http://elasticsearch.org). (#JAVA)
+* [Lmdbjni](https://github.com/deephacks/lmdbjni) - LMDB for Java, which is a very fast embedded key/value store with full ACID semantics. (#JAVA)
 
 ## Scala
 
-* [BlinkDB](https://github.com/sameeragarwal/blinkdb) - BlinkDB: Sub-Second Approximate Queries on Very Large Data [Website]	(http://blinkdb.cs.berkeley.edu/).
+* [BlinkDB](https://github.com/sameeragarwal/blinkdb) - BlinkDB: Sub-Second Approximate Queries on Very Large Data [Website]	(http://blinkdb.cs.berkeley.edu/). (#SCALA)
+* [VerdictDB](https://github.com/mozafari/verdictdb) - Interactive-Speed Analytics: 200x Faster, 200x Fewer Cluster Resources, Approximate Query Processing.
 
 ## Frameworks <a name="frameworks"></a>
 
@@ -365,7 +361,24 @@ _Database management products developed by IBM_
 
 ### SQL Languages <a name="sql-languages"></a>
 
-:construction:
+* SQL (Structured Query Language)	
+* T-SQL (Transact SQL)
+
+#### Sublanguages <a name="sql-sublanguages"></a>
+
+Take picture from [here](https://www.quora.com/What-are-different-sub-languages-in-SQL)
+
+* Data Definition Language (DDL) 
+* Data Manipulation Language (DML) 
+* Data Control Language (DCL)
+* Transaction Control Language(TCL)
+* DQL (Data Query Language)
+
+#### Versions
+
+Take table from [here](https://es.wikipedia.org/wiki/SQL)
+
+#### Dialects
 
 ### :chart_with_upwards_trend: Algorithms <a name="algorithms"></a>
 
@@ -392,16 +405,16 @@ _Database management products developed by IBM_
 * [BigBash](https://github.com/zalando/bigbash) - Open-source converter that generates a bash one-liner from an SQL Select query, no database necessary.
 * [Flyway](https://flywaydb.org/) - Database migration tool.
 * [Liquibase](http://www.liquibase.org/) - Source Control for your database.
-* [Liquibase](http://www.liquibase.org/) - Source Control for your database.
-
 * [Awesome DB Tools](https://github.com/mgramin/awesome-db-tools) - a community driven list of database tools (ide, cli, managing, monitoring, migrations, modelers, visualization etc)
+* [10 Database tools for sys admins](https://techtalk.gfi.com/top-10-free-database-tools-for-sys-admins/)
+* [Wikipedia Database Tools Comparison](https://en.wikipedia.org/wiki/Comparison_of_database_tools)
 
 ## Formatters <a name="formatters"></a>
 
-- [SQL Format](http://www.dpriver.com/pp/sqlformat.htm) - Instant SQL Formatter.
-- [Poor SQL](http://poorsql.com/) - A small free .Net and JS library (with demo UI, command-line bulk formatter, SSMS/VS add-in, notepad++ plugin, winmerge plugin, and demo webpage) for reformatting and coloring T-SQL code to the user's preferences.
+* [SQL Format](http://www.dpriver.com/pp/sqlformat.htm) - Instant SQL Formatter.
+* [Poor SQL](http://poorsql.com/) - A small free .Net and JS library (with demo UI, command-line bulk formatter, SSMS/VS add-in, notepad++ plugin, winmerge plugin, and demo webpage) for reformatting and coloring T-SQL code to the user's preferences.
 See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
-- [T-SQL Tidy](http://www.tsqltidy.com/Default.aspx) - Online T-SQL formatting with Webservice and Plugins for SSMS.
+* [T-SQL Tidy](http://www.tsqltidy.com/Default.aspx) - Online T-SQL formatting with Webservice and Plugins for SSMS.
 
 ## :electric_plug: Plugins <a name="plugins"></a>
 
@@ -481,7 +494,7 @@ See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
 
 ## :beginner: Tutorials <a name="tutorials"></a>
 
-- [Curated SQL Learning Resources on Hackr.io](https://hackr.io/tutorials/learn-sql) - Programming Community Curated Resources for learning SQL.
+* [Curated SQL Learning Resources on Hackr.io](https://hackr.io/tutorials/learn-sql) - Programming Community Curated Resources for learning SQL.
 
 ## :star: Best Practices <a name="best-practices"></a>
 
@@ -508,9 +521,12 @@ See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
 * [Awesome Databases](https://github.com/dhamaniasad/awesome-databases) - A curated list of awesome databases.
 * [Awesome DB](https://github.com/pditommaso/awesome-db) - A curated list of awesome DBs.
 * [Awesome SQL Server](https://github.com/SqlAdmin/AwesomeSQLServer) - A big collection of SQL Server Queries and documeantations to fix your SQL Server's bottle neck.
+* [Awesome MySQL](https://github.com/shlomi-noach/awesome-mysql) - A curated list of awesome MySQL software, libraries, tools and resources.
 * [Awesome SQLite](https://github.com/planetopendata/awesome-sqlite) - A collection of awesome sqlite tools, scripts, books, etc.
 * [Awesome PostgresSQL](https://github.com/dhamaniasad/awesome-postgres) - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql.
 * [Awesome DB2](https://github.com/angoca/awesome-db2) - A curated list of awesome Db2 resources, libraries, tools and applications.
+* [Awesome BigData](https://github.com/onurakpolat/awesome-bigdata) - A curated list of awesome big data frameworks, resources and other awesomeness.
+
 
 # :trophy: Recommended <a name="recommended"></a>
 
