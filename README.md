@@ -180,6 +180,7 @@ _Database management products developed by IBM_
 
 * [Firebird](http://www.firebirdsql.org/) - True universal open source database.
 * [VoltDB](https://github.com/VoltDB/voltdb/) - VoltDB is a horizontally-scalable, in-memory SQL RDBMS designed for applications that have extremely high read and write throughput requirements.
+* [YugabyteDB](https://github.com/yugabyte/yugabyte-db) - PostgreSQL-compatible, Cassandra-compatible, horizontally scalable, fault tolerant database server.
 
 ### Object-Relational Databases
 
