@@ -308,6 +308,7 @@ See [list](http://nosql-database.org/) of databases.
 * [Titan](https://github.com/thinkaurelius/titan) - Distributed Graph Database [Website](http://titandb.io). (#JAVA)
 * [OrientDB](https://github.com/orientechnologies/orientdb) - OrientDB is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs. (#JAVA) (#DOCUMENT-STORE)
 * [ArangoDB](https://github.com/triAGENS/ArangoDB) - ArangoDB is a multi-purpose, open-source database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript/Ruby extensions. Use ACID transaction if you require them. Scale horizontally and vertically with a few mouse clicks.
+* [ArcadeDB](https://github.com/ArcadeData/arcadedb) - ArcadeDB is a Multi-Model Database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis. ArcadeDB is a conceptual fork of OrientDB, the first Multi-Model DBMS. (#JAVA)
 
 #### Others
 
