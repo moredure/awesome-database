@@ -523,6 +523,7 @@ See more on [Github](https://github.com/TaoK/PoorMansTSqlFormatter).
 * [Awesome DB](https://github.com/pditommaso/awesome-db) - A curated list of awesome DBs.
 * [Awesome SQL Server](https://github.com/SqlAdmin/AwesomeSQLServer) - A big collection of SQL Server Queries and documeantations to fix your SQL Server's bottle neck.
 * [Awesome MySQL](https://github.com/shlomi-noach/awesome-mysql) - A curated list of awesome MySQL software, libraries, tools and resources.
+* [Awesome MariaDB](https://github.com/Vettabase/awesome-mariadb) - A curated list of awesome MariaDB resources.
 * [Awesome SQLite](https://github.com/planetopendata/awesome-sqlite) - A collection of awesome sqlite tools, scripts, books, etc.
 * [Awesome PostgresSQL](https://github.com/dhamaniasad/awesome-postgres) - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql.
 * [Awesome DB2](https://github.com/angoca/awesome-db2) - A curated list of awesome Db2 resources, libraries, tools and applications.
