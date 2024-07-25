@@ -318,6 +318,7 @@ See [list](http://nosql-database.org/) of databases.
 * [InfluxDB](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics. (#GO-LANG)
 * [Roshi](https://github.com/soundcloud/roshi/) - Roshi is a large-scale CRDT set implementation for timestamped events. (#GO-LANG)
 * [SkyDB.io](https://github.com/skydb/sky) - Sky is an open source database used for flexible, high performance analysis of behavioral data. (#GO-LANG)
+* [CrateDB](https://cratedb.com) - An open source database for Time Series, Documents, and Vectors with native SQL query interface - written in Java.
 
 ### Embeddable engines <a name="embeddable-engines"></a>
 
